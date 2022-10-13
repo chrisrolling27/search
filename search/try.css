@@ -1,0 +1,87 @@
+
+
+.main_round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    border-color: grey;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.main_corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+}
+
+.main_search {
+    position: relative;
+    width: 250px;
+    height: 40px;
+}
+
+#image-container {
+    width: 270px;
+    height: 90px;
+    background: url("glogo.png");
+    top: 25%;
+    left: 40%;
+    position: absolute;
+}
+
+#form-container {
+    width:350px;
+    top: 100%;
+    margin: 20px;
+    position: relative;
+ }
+
+ #aimage-container {
+     width: 160px;
+     height: 70px;
+     background: url("smallg.png");
+
+ }
+
+ #adform-container {
+     width:350px;
+     top: 25%;
+     position: absolute;
+  }
+
+  #searchboxform-container {
+      width:350px;
+      top: 25%;
+      position: absolute;
+      margin: left;
+   }
+
+   #bsearchboxform-container {
+       width:350px;
+       top: 35%;
+       position: absolute;
+       margin: left;
+    }
+
+    #csearchboxform-container {
+        width:350px;
+        top: 45%;
+        position: absolute;
+        margin: left;
+     }
+
+     #dsearchboxform-container {
+         width:350px;
+         top: 55%;
+         position: absolute;
+         margin: left;
+      }
